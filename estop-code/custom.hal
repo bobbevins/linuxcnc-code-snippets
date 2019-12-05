@@ -1,0 +1,38 @@
+# Bob Bevins December 2019
+# estop code. verified.... 5i25-7i77
+
+#***********************
+# === estop signals ===
+#***********************
+
+loadrt estop_latch
+addf estop-latch.0 servo-thread
+net estop-loopout iocontrol.0.emc-enable-in <= estop-latch.0.ok-out
+net estop-loopin iocontrol.0.user-enable-out => estop-latch.0.ok-in
+net estop-reset iocontrol.0.user-request-enable => estop-latch.0.reset
+net remote-estop estop-latch.0.fault-in <=  hm2_5i25.0.7i77.0.0.input-07-not
+
+#%%%%%%%%%%%%%%%%%%%%%%%
+#  END estop signals 
+#%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
