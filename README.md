@@ -11,5 +11,9 @@ I tie this loop into the external estop loop so to start the machine, you need t
 the button wait for green lite, then if estop is clear, you can turn on the machine. IF you dont get a green lite
 then you cannot get a clear estop.
 
+**** mpg-code****
+
+This code snipet is for adding an mpg wheel with axis selector and increments.
+It uses mux4.
 
 
