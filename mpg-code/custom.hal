@@ -1,5 +1,13 @@
 # Bob Bevins December 2019
 # mpg code. verified.... 7i92-7i76
+# 
+#To enable encoders on pins 16,17 for enc0 and 18,19 for enc1
+#you need to set the mode for SSerial_port like this:
+#
+#for a 7i92-7i76
+#loadrt hm2_eth board_ip="192.168.1.121" config=" num_encoders=1 num_pwmgens=0 num_stepgens=4 sserial_port_0=200xxx"
+
+
 
 #*****************************************
 #   MPG Jog Select
