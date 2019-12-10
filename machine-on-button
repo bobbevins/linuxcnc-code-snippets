@@ -1,0 +1,5 @@
+net button-pwr toggle.0.in <= hm2_5i25.0.7i77.0.0.input-08
+net toggle-but toggle2nist.0.in <= toggle.0.out
+net togleg-on toggle2nist.0.is-on <= halui.machine.is-on
+net pwr-on halui.machine.on <= toggle2nist.0.on
+net pwr-off halui.machine.off <= toggle2nist.0.off
