@@ -1,0 +1,6 @@
+loadrt timedelay count=1
+addf timedelay.0 servo-thread
+setp timedelay.0.on-delay 5
+net spindle-on => timedelay.0.in
+net spindle-timer <= timedelay.0.out
+net spindle-timer => motion.spindle-at-speed
