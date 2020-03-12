@@ -1,5 +1,5 @@
 Go here: https://github.com/Mange/rtl8192eu-linux-driver
-download rtl8192er-linux-driver
+download rtl8192eu-linux-driver
 unzip it into a folder.
 cd into that folder.
 sudo make
