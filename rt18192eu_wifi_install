@@ -1,9 +1,2 @@
-Go here: https://github.com/Mange/rtl8192eu-linux-driver
-download rtl8192eu-linux-driver
-unzip it into a folder.
-cd into that folder.
-sudo make
-sudo make install
-sudo modprobe 8192eu
-do a iwconfig to see if it took.
-
+Go Here follow instructions:
+https://github.com/clnhub/rtl8192eu-linux
