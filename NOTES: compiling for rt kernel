@@ -1,0 +1,4 @@
+Neeed to do this: forums.linuxmint.com/viewtopic.php?p=1703637#p1703637
+Andy: If you compiled the kernel yourself, then "sudo make headers_install" in the kernel source directory might work. to get
+      kernel headers
+      
