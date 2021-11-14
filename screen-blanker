@@ -1,3 +1,5 @@
+ADD this to .basrc in Debian Buster
+
 #!/bin/sh
 export DISPLAY=:0.0
 xset s off
